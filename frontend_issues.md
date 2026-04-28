@@ -5,7 +5,7 @@
 
 **Description**:
 ### **Context**
-Some task boards can grow into the thousands of records. Rendering every task card at once causes slow mount times, memory pressure, and poor scroll performance.
+Some task boards can grow into the thousands of records. Rendering every task card at once causes slow mount times, memory pressure, and poor scroll performance1.
 ### **Problem**
 The current task list likely renders all items in the DOM, even when most are off-screen. This creates a poor experience on lower-end devices and makes future board features harder to scale.
 ### **Task Breakdown**
